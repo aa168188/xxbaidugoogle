@@ -1,0 +1,127 @@
+﻿body, button, input, select, textarea{
+	font: 12px/1 "Microsoft YaHei","微软雅黑","arial","tahoma","MicrosoftJhengHei", "sans-serif";
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased!important;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+*{
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+	font-style: normal;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex1{
+	flex: 1;
+	min-width: 0;
+}
+.fs16{
+	font-size: 16px;
+}
+.fs18{
+	font-size: 18px;
+}
+.fs24{
+	font-size: 24px;
+}
+.fs32{
+	font-size: 32px;
+}
+.fs34{
+	font-size: 34px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.footer{
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #fafbfc;
+	height: 80px;
+}
+.footer.fixed-bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+.footer .footer-content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	font-size: 32px;
+	line-height: 80px;
+	justify-content: space-between;
+}
+.footer .soft-logo{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border-radius: 5px;
+	object-fit: contain;
+}
+.footer .download-btn{
+	background-color: #38c800;
+	border-radius: 50px;
+	height: 50px;
+	margin-bottom: 0;
+	text-decoration: unset;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer .download-btn i{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-right: 10px;
+	background-image: url(../image/download_ico.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer .flex1{
+	text-align: center;
+	font-size: 30px;
+	line-height: 80px;
+	height: 100%;
+	overflow: hidden;
+	max-width: 500px;
+	color: #333;
+}
+.footer .footer-desc{
+	font-weight: bold;
+}
+.copyright{
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	line-height: 1.5;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.copyright * {
+	color: inherit;
+	text-decoration: unset;
+}
+.btnDownload{
+	cursor: pointer;
+}
+.linear-text{
+	background: linear-gradient(90deg,#6f00fd -9.97%,#0085fb 85.54%,#00bdf9);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
